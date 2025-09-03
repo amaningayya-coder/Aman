@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.example.HeaderValidation.HeaderDemo"/>
+      <class name="com.example.ResponseValidation.ParsingJsonResponseData"/>
+      <class name="com.example.CredOperation.Test01_PUT"/>
+      <class name="com.example.CredOperation.Tests_GET"/>
+      <class name="com.example.HeaderValidation.PathandQueryParameter"/>
+      <class name="com.example.CredOperation.CREDOperation"/>
+      <class name="com.example.CredOperation.Test01_GET"/>
+      <class name="com.example.CredOperation.Test01_POST"/>
+      <class name="com.example.DiffPostRequestCreation.DiffWaysToCreatePostRequest"/>
+      <class name="com.example.HeaderValidation.LoggingDemo"/>
+      <class name="com.example.CredOperation.Test_01PATCH"/>
+      <class name="com.example.CredOperation.Test01_DELETE"/>
+      <class name="com.example.HeaderValidation.CookiesDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+{
+    "store": {
+        "name": "Example Store",
+        "location": "123 Main Street",
+        "products": [
+            {
+                "id": 1,
+                "name": "Product A",
+                "price": 19.99,
+                "inStock": true
+            },
+            {
+                "id": 2,
+                "name": "Product B",
+                "price": 29.99,
+                "inStock": false
+            }
+        ],
+        "employees": [
+            {
+                "id": 101,
+                "name": "Alice",
+                "role": "Manager"
+            },
+            {
+                "id": 102,
+                "name": "Bob",
+                "role": "Cashier"
+            }
+        ]
+    }
+}

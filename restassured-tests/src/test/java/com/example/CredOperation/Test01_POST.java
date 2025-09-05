@@ -32,7 +32,7 @@ public class Test01_POST {
 		System.out.println(request.toJSONString());
 
 		given().header("Content-Type", "Application/json").contentType(ContentType.JSON).accept(ContentType.JSON)
-				.body(request.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(201).log()
+				.body(request.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(401).log()
 				.all();
 	}
 

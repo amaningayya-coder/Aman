@@ -18,7 +18,7 @@
       <class name="com.example.CredOperation.Test_01PATCH"/>
       <class name="com.example.CredOperation.Test01_DELETE"/>
       <class name="com.example.HeaderValidation.CookiesDemo"/>
-			
+      <class name="com.example.HealthcheckAPITest.ReqRespHealthcheck"/>	
 		</classes>
 
 	</test>
